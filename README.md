@@ -48,7 +48,7 @@ Using this (`mnmtanish:call`) package the above example can be written like this
 Template.hello.helpers({
   total: function () {
     var uniqueId = 'add-numbers';
-    return Call(uniqueId, 'add', 4, 5);
+    return Call(uniqueId, 'add', 4, 5).result();
   }
 });
 ```
